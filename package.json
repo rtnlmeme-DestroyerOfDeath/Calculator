@@ -1,0 +1,40 @@
+{
+  "name": "calculator",
+  "version": "0.2.0",
+  "description": "calc using basic es6",
+  "main": "app.js",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtnlmeme-DestroyerOfDeath/Calculator.git"
+  },
+  "author": "rtnlmeme",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-bootstrap": "^0.30.7",
+    "react-dom": "^15.4.2",
+    "webpack": "2.2.0-rc.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "2.1.0-beta.0",
+    "webpack-validator": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rtnlmeme-DestroyerOfDeath/Calculator/issues"
+  },
+  "homepage": "https://github.com/rtnlmeme-DestroyerOfDeath/Calculator#readme"
+}
